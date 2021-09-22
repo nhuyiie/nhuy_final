@@ -1,0 +1,1076 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+.container{
+	height: 100vh;
+	background-color: rgba(238,238,238,1.00);
+	scroll-behavior: smooth;
+	overflow: scroll;
+	display: flex;
+}
+
+@font-face{
+	font-family: demofont;
+	src: url(../font/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face{
+	font-family: boldfont;
+	src: url(../font/Mulish-Bold.ttf);
+}
+
+.noidung1{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(238,238,238,1.00);
+	
+}
+.trang1 img{
+	height: 560px;
+	width: 735px;
+	margin-left: 106px;
+	animation: animtrang1 1s 1.5s linear forwards;
+	position: relative;
+	opacity: 0;
+	padding-top: 46px;
+}
+@keyframes animtrang1{
+	0%{
+		opacity: 0;
+		top: 500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+	.trang2{
+	width: 570px;
+	height: 460px;
+	background: url(../img/trang2-01.jpg);
+	background-size: cover;
+	margin-top: -513px;
+	margin-left: 655px;	
+	animation: animtr2 1.5s 2s linear forwards;
+	position:relative;
+	opacity: 0;
+	}
+@keyframes animtr2{
+	0%{
+		opacity: 0;
+		top: 500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+	.text1{
+	font-family: boldfont;
+	font-size: 63px;
+	margin-left:159px;
+	margin-top: -360px;
+	animation: animtext1 2s 5s linear forwards;
+		position: relative;
+		opacity: 0;
+}
+@keyframes animtext1{
+	0%{
+		opacity: 0;
+		top: 500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.text2{
+	font-family: demofont;
+	font-size: 12.0px;
+	margin-left: 160px;
+	margin-top:20px;
+	animation: animtext2 2s 2.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animtext2{
+	0%{
+		opacity: 0;
+		top: 500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.button{
+	height: 30px;
+	width: 90px;
+	background-color: #1f1f1f;
+	margin-left: 521px;
+	margin-top: 50px;
+	animation: animbt1 2.5s 3s linear forwards;
+	position:relative;
+	opacity: 0;
+}
+@keyframes animbt1{
+	0%{
+		opacity: 0;
+		top: 500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.button:hover{
+	background-color: rgba(238,238,238,1.00);
+}
+.chubt{
+	font-size: 12px;
+	color: #ffffff;
+	font-family: demofont;
+	text-align: center;
+	padding-top: 6px;
+	animation: chubt1 2.9s 3.4s linear forwards;
+	position:relative;
+	opacity: 0;
+}
+@keyframes chubt1{
+	0%{
+		opacity: 0;
+		top:500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.chubt:hover{
+	color: #000000;
+}
+
+.noidung2{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(238,238,238,1.00);
+}
+.anh1 img{
+	width: 575px;
+	height: 602px;
+	background-size: cover;
+	margin-left: 370px;
+	margin-top: 25px;
+	position: relative;
+	animation: animanh1 3s 3.5s linear forwards;
+	opacity: 0;
+}
+@keyframes animanh1{
+	0%{
+		opacity: 0;
+		top:500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.anh2{
+	width: 225px;
+	height: 249px;
+	background: url(../img/trg2.jpg);
+	background-size: cover;
+	margin-left: 100px;
+	margin-top: -550px;
+	position: relative;
+	animation: animanh2 3.5s 4s linear forwards;
+	opacity: 0;
+}
+@keyframes animanh2{
+	0%{
+		opacity: 0;
+		top:500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.anh3{
+     width: 255px;
+	height: 290px;
+	background: url(../img/trang3.2-01.jpg);
+	background-size: cover;
+	margin-left: 160px;
+	margin-top: -60px;
+	position: relative;
+	animation: animanh3 4.5s 5s linear forwards;
+	opacity: 0;
+}
+@keyframes animanh3{
+	0%{
+		opacity: 0;
+		top:500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.anh4{
+	width: 292px;
+	height: 300px;
+	background: url(../img/trang04-01.jpg);
+	background-size: cover;
+	margin-left: 900px;
+	margin-top: -500px;
+	position: relative;
+	animation: animanh4 4s 4.5s linear forwards;
+	opacity: 0;
+}
+@keyframes animanh4{
+	0%{
+		opacity: 0;
+		top:500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.anh5{
+	width: 180px;
+	height: 180px;
+	background: url(../img/trg5-01.jpg);
+	background-size: cover;
+	margin-left: 955px;
+	margin-top: -45px;
+	position: relative;
+	animation: animanh5 5s 5.5s linear forwards;
+	opacity: 0;
+}
+@keyframes animanh5{
+	0%{
+		opacity: 0;
+		top:500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.chund2{
+	width: 180px;
+	height: 100px;
+	font-size: 10px;
+	color: #000000;
+	margin-left: 1092px;
+	margin-top: -11px;
+	font-family: demofont;
+	position: relative;
+	animation: animchund2 5.5s 6s linear forwards;
+	opacity: 0;
+}
+@keyframes animchund2{
+	0%{
+		opacity: 0;
+		top:500px;
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.noidung3{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(238,238,238,1.00);
+	background-size: cover;
+}
+.chunhat{
+	width: 1230px;
+	height: 590px;
+    margin-left: 72px;
+	padding-top: 60px;
+}
+.chunhat1{
+	width: 1230px;
+	height: 290px;
+}
+.cn1{
+	width: 267.5px;
+	height: 235px;
+	background: url(../img/gmceo01-01.jpg);
+	background-size: cover;
+	animation: animcn1 6s 7s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+.cn1 img{
+	width: 267.5px;
+	height: 235px;
+	background-size: cover;
+}
+.cn1 img{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.cn1:hover img{
+	opacity: 1;
+}
+@keyframes animcn1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn1-1{
+	padding-top: 240px;
+	font-size: 14.2px;
+	font-family: vuafont;
+	color: #000000;
+	animation: animcn1-1 4s 5.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animcn1-1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn2{
+	width: 267.5px;
+	height: 235px;
+	background: url(../img/gmfendino-01.jpg);
+	background-size: cover;
+	margin-left: 307.5px;
+	margin-top: -235px;
+	animation: animcn2 6s 7s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+.cn2 img{
+	width: 267.5px;
+	height: 235px;
+	background-size: cover;
+}
+.cn2 img{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.cn2:hover img{
+	opacity: 1;
+}
+@keyframes animcn2
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+	
+.cn2-1{
+	padding-top: 240px;
+	font-size: 14.2px;
+	font-family: vuafont;
+	color: #000000;
+	animation: animcn2-1  4s 5.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animcn2-1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn3{
+	width: 267.5px;
+	height: 235px;
+	background: url(../img/gmchameleon-01.jpg);
+	background-size: cover;
+	margin-left: 615px;
+	margin-top: -235px;
+	animation: animcn3 6s 7s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+.cn3 img{
+	width: 267.5px;
+	height: 235px;
+	background-size: cover;
+}
+.cn3 img{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.cn3:hover img{
+	opacity: 1;
+}
+@keyframes animcn3
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn3-1{
+	padding-top: 240px;
+	font-size: 14.2px;
+	font-family: vuafont;
+	color: #000000;
+	animation: animcn3-1 6s 7s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animcn3-1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn4{
+	width: 267.5px;
+	height: 235px;
+	background: url(../img/gm1996-01.jpg);
+	background-size: cover;
+	margin-left: 922.5px;
+	margin-top: -235px;
+	animation: animcn4 6s 7s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+.cn4 img{
+	width: 267.5px;
+	height: 235px;
+	background-size: cover;
+}
+.cn4 img{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.cn4:hover img{
+	opacity: 1;
+}
+@keyframes animcn4
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn4-1{
+	padding-top: 240px;
+	font-size: 14.2px;
+	font-family: vuafont;
+	color: #000000;
+	animation: animcn4-1  4s 5.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animcn4-1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.chunhat2{
+	width: 1230px;
+	height: 310px;
+}
+.cn5{
+	width: 267.5px;
+	height: 235px;
+	background: url(../img/gmvector-01.jpg);
+	background-size: cover;
+	animation: animcn5 7s 8s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+.cn5 img{
+	width: 267.5px;
+	height: 235px;
+	background-size: cover;
+}
+.cn5 img{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.cn5:hover img{
+	opacity: 1;
+}
+@keyframes animcn5
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn5-1{
+	padding-top: 240px;
+	font-size: 14.2px;
+	font-family:vuafont;
+	color: #000000;
+	animation: animcn5-1 7s 8s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animcn5-1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn6{
+	width: 267.5px;
+	height: 235px;
+	background: url(../img/gmkuku1-01.jpg);
+	background-size: cover;
+	margin-left: 307.5px;
+	margin-top: -235px;
+	animation: animcn6 7s 8s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+.cn6 img{
+	width: 267.5px;
+	height: 235px;
+	background-size: cover;
+}
+.cn6 img{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.cn6:hover img{
+	opacity: 1;
+}
+@keyframes animcn6
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn6-1{
+	padding-top: 240px;
+	font-size: 14.2px;
+	font-family: vuafont;
+	color: #000000;
+	animation: animcn6-1  7s 8s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animcn6-1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn7{
+	width: 267.5px;
+	height: 235px;
+	background: url(../img/gmsince-01.jpg);
+	background-size: cover;
+	margin-left: 615px;
+	margin-top: -235px;
+	animation: animcn7 7s 8s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+.cn7 img{
+	width: 267.5px;
+	height: 235px;
+	background-size: cover;
+}
+.cn7 img{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.cn7:hover img{
+	opacity: 1;
+}
+@keyframes animcn7
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn7-1{
+	padding-top: 240px;
+	font-size: 14.2px;
+	font-family: vuafont;
+	color: #000000;
+	animation: animcn7-1  4s 5.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animcn7-1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn8{
+	width: 267.5px;
+	height: 235px;
+	background: url(../img/gmkujo2-01.jpg);
+	background-size: cover;
+	margin-left: 922.5px;
+	margin-top: -235px;
+	animation: animcn8 7s 8s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+.cn8 img{
+	width: 267.5px;
+	height: 235px;
+	background-size: cover;
+}
+.cn8 img{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.cn8:hover img{
+	opacity: 1;
+}
+@keyframes animcn8
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.cn8-1{
+	padding-top: 240px;
+	font-size: 14.2px;
+	font-family: vuafont;
+	color: #000000;
+	animation: animcn8-1  4s 5.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animcn8-1
+{
+0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+
+.noidung5{
+	background-color: rgba(238,238,238,1.00);
+	width: 100vw;
+	height: 100vh;
+}
+.atnd5 img{
+	height: 460px;
+	width: 590px;
+	background-size: cover;
+	margin-left: 160px;
+    padding-top: 115px;
+	animation: animatnd5 10s 10.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animatnd5{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.anhde{
+	height: 460px;
+	width: 590px;
+	background: url(../img/590x460-01.jpg);
+	background-size: cover;
+	margin-left: 110px;
+    margin-top: -510px;;
+	position: relative;
+	animation: animanhde 9.5s 10s linear forwards;
+
+	opacity: 0;
+}
+@keyframes animanhde{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+
+.anhnd5 {
+	height: 460px;
+	width: 590px;
+	background-size: cover;
+	margin-left: 135px;
+	background: url(../img/box1-01.jpg);
+	background-size: cover;
+	margin-top: -437px;
+	position: relative;
+	animation: animanhnd5 10.5s 11s linear forwards;
+	
+	opacity: 0;
+}
+@keyframes animanhnd5{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.tieudend5{
+	color: #000000;
+	font-family: boldfont;
+	font-size: 45px;
+	margin-left: 825px;
+	margin-top:-165px;
+	animation: animtieudend5 11s 11.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animtieudend5{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.chund5{
+	font-size: 12px;
+	font-family: demofont;
+	margin-left: 825px;
+	margin-right: 90px;
+	width: 395px;
+	height: 67.56;
+	margin-top:-103px;
+	animation: animchund5 11.5s 12s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animchund5{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.chund5 p{
+	margin-left: 0px;
+	margin-top: 7px;
+	animation: animchund5p 11.5s 12s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+
+@keyframes animchund5p{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.noidung4{
+	background-color: rgba(238,238,238,1.00);
+	width: 100vw;
+	height: 100vh;
+}
+.tieude{
+	color: #000000;
+	font-family: boldfont;
+	font-size: 55px;
+	margin-left: 80px;
+	margin-top:-395px;
+	animation: animtieude 8s 8.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animtieude{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.taibut{
+	color: #000000;
+	font-family: demofont;
+	font-size: 12px;
+	margin-left: 80px;
+	margin-top: 205px;
+	animation: animtaibut 9.2s 9.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animtaibut{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+
+.o1{
+	width: 160px;
+	height: 85px;
+	font-family: demofont;
+	font-size: 11px;
+	color: #000000;
+	margin-left: 745px;
+	padding-top: 205px;
+	animation: animo1 8.5s 9s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animo1{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.o2{
+    width: 160px;
+	height: 125px;
+	font-family: demofont;
+	font-size: 11px;
+	color: #000000;
+	margin-left: 925px;
+	margin-top: -85px;
+animation: animo2 8.5s 9s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animo2{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.o3{
+	width: 160px;
+	height: 125px;
+	font-family: demofont;
+	font-size: 11px;
+	color: #000000;
+	margin-left: 1090px;
+	margin-top: -125px;
+	animation: animo3 8.5s 9s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animo3{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.chuach{
+	height: 200px;
+	width: 920px;
+	margin-left: 380px;
+	margin-top: -5px;
+}
+.ch1{
+	background: url(../img/gm1-01.jpg);
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	animation: animch1 9s 9.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animch1{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.ch2{
+	background: url(../img/gm4-01.jpg);
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	margin-left: 310px;
+	margin-top: -200px;
+	animation: animch2 9s 9.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animch2{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.ch3{
+	background: url(../img/gm2-01.jpg);
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	margin-left: 620px;
+	margin-top: -200px;
+	animation: animch3 9s 9.5s linear forwards;
+	position: relative;
+	opacity: 0;
+}
+@keyframes animch3{
+	0%{
+	opacity: 0;
+	top:500px;
+}
+100%{
+	opacity: 1;
+	top:0px;
+}
+}
+.noidunga{
+	
+}
+
+
+
+.menu{
+	width: 100vw;
+	height: 40px;
+	background-color:rgba(238,238,238,1.00);
+	position: fixed;
+	transform: rotate(-90deg);
+	margin-left: -48.5%;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding:7px 34px;
+  background-color: rgba(238,238,238,1.00);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color:#666;
+  color: white;
+}
